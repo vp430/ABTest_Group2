@@ -27,7 +27,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <i class="fas fa-question-circle"></i>     
+      
           <button type="button" class="btn btn-light">List your property</button>
           &nbsp;&nbsp;&nbsp;&nbsp;
           <button type="button" class="btn btn-primary">Register</button>
@@ -40,19 +40,77 @@
 
   <!-- Page Content -->
   <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h1 class="mt-5">A Bootstrap 4 Starter Template</h1>
-        <p class="lead">Complete with pre-defined file paths and responsive navigation!</p>
-        <ul class="list-unstyled">
-          <li>Bootstrap 4.5.3</li>
-          <li>jQuery 3.5.1</li>
-          <i class="fas fa-question-circle"></i>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Stays <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Flights</a>
+          <a class="nav-item nav-link" href="#">Flight + Hotel</a>
+          <a class="nav-item nav-link" href="#">Car rentals</a>
+          <a class="nav-item nav-link" href="#">Attractions</a>
+          <a class="nav-item nav-link" href="#">Airport Taxis</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+<br>
+<br>
+  <div class="container">
+    <h3>Find deals on hotels, homes and much more...</h2>
+    <p>From cosy country homes to funky city flats</p>
+    <br>
+    <input type="text" class="form-control" placeholder="Where are you going?">
+    <br>
+    <input type="text" class="form-control" placeholder="Check-in Date">
+    <br>
+    <input type="text" class="form-control" placeholder="Check-out Date">
+    <br>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <label for="exampleFormControlSelect2">Adults</label>
+            <select multiple class="form-control" id="exampleFormControlSelect2">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>Custom<input type="number" class="form-control" placeholder="Custom"></option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group">
+            <label for="exampleFormControlSelect2">Children</label>
+            <select multiple class="form-control" id="exampleFormControlSelect2">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>Custom<input type="number" class="form-control" placeholder="Custom"></option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group">
+            <label for="exampleFormControlSelect2">Rooms</label>
+            <select multiple class="form-control" id="exampleFormControlSelect2">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>Custom<input type="number" class="form-control" placeholder="Custom"></option>
+            </select>
+          </div>
+        </div>
       </div>
     </div>
+    <br>  
+    <button type="button" class="btn btn-primary">Search</button>
   </div>
-
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.slim.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
